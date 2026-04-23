@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CarClicker - ¿Cuál es tu auto favorito?</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar izquierda con lista de autos -->
+        <aside class="sidebar">
+            <h1>CarClicker</h1>
+            <p class="subtitle">¿Cuál es tu favorito?</p>
+            <div id="carList" class="car-list"></div>
+        </aside>
+
+        <!-- Contenido principal -->
+        <main class="main-content">
+            <div class="car-display">
+                <img id="carImage" src="" alt="Imagen del auto" class="car-image">
+                <div class="car-info">
+                    <h2 id="carName">Selecciona un auto</h2>
+                    <p id="carVotes">Votos: 0</p>
+                </div>
+                <button id="voteBtn" class="vote-btn">👍 Me Gusta</button>
+            </div>
+
+            <!-- Estadísticas -->
+            <div class="stats">
+                <h3>Ranking</h3>
+                <div id="statsContainer" class="stats-container"></div>
+            </div>
+        </main>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>

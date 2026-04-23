@@ -1,0 +1,4 @@
+oracleJdk-26/
+# Ignorar archivos temporales
+*.log
+.DS_Store
